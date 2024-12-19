@@ -6,22 +6,39 @@ version: 1.0.0+1
 
 environment:
   sdk: ^3.5.4
+
 dependencies:
   flutter:
     sdk: flutter
-
   cupertino_icons: ^1.0.8
+  firebase_auth: ^5.3.4      # Autenticación con Firebase
+  firebase_core: ^3.8.1       # Configuración principal de Firebase
+  flutter_localizations:
+    sdk: flutter
+  intl: 0.19.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^4.0.0
+
 flutter:
   uses-material-design: true
+  generate: true # Debe estar aquí, correctamente indentado
   assets:
-    - lib/modules/auth/
-    - lib/modules/auth/data/
-    - lib/modules/auth/data/models/
-    - lib/modules/auth/data/datasources/
-    - lib/modules/auth/data/repositories/
 
+
+l10n:
+  arb-dir: lib/l10n
+  template-arb-file: app_en.arb
+  output-localization-file: app_localizations.dart
+
+
+
+
+# Sección de assets para recursos estáticos como imágenes o JSON
+# Esto no incluye archivos del código fuente
+# Agrega imágenes o fuentes si son necesarias
+# assets:
+#   - assets/images/
+#   - assets/translations/

@@ -1,0 +1,43 @@
+{
+  "@@locale": "en",
+  "homeTitle": "Home",
+  "login": "Login",
+  "signup": "Sign Up",
+  "email": "Email",
+  "password": "Password",
+  "loginSuccessTitle": "Registration Successful",
+  "loginSuccess": "Login successful! Welcome back.",
+  "signupSuccess": "Your account has been created successfully. You can now log in.",
+  "goToLogin": "Go to Login",
+  "emailAlreadyInUse": "The email is already in use.",
+  "weakPassword": "The password is too weak.",
+  "signupError": "Error creating account.",
+  "fieldsRequired": "All fields are required.",
+  "loginError": "An error occurred during login. Please try again.",
+  "userNotFound": "No user found with this email.",
+  "welcomeMessage": "Welcome to Plus One",
+  "greeting": "Hello",
+  "logout": "Log Out",
+  "wrongPassword": "Incorrect password. Please try again.",
+  "exploreAsGuest": "Explore as Guest",
+  "guestExplore": "Guest Explore",
+  "tooManyRequests": "Too many login attempts. Please try again later.",
+  "invalidCredential": "The supplied credential is invalid. Please try again.",
+  "accountBlocked": "Your account is temporarily blocked. Please try again in {minutes} minutes.",
+  "forgotPassword": "Forgot Password?",
+  "invalidEmail": "Please enter a valid email address.",
+  "@accountBlocked": {
+    "description": "Message displayed when the user's account is temporarily blocked due to multiple failed login attempts.",
+    "placeholders": {
+      "minutes": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "signupSuccessTitle": "Registration Successful",
+  "@signupSuccessTitle": {
+    "description": "Title displayed when the registration is successful."
+  }
+
+}
