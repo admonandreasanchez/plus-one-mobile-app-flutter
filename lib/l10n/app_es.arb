@@ -1,0 +1,44 @@
+{
+  "@@locale": "es",
+  "homeTitle": "Inicio",
+  "login": "Iniciar Sesión",
+  "signup": "Registrarse",
+  "email": "Correo Electrónico",
+  "password": "Contraseña",
+  "loginSuccessTitle": "Registro Exitoso",
+  "loginSuccess": "¡Inicio de sesión exitoso! Bienvenido de nuevo.",
+  "signupSuccess": "Tu cuenta ha sido creada exitosamente. Ahora puedes iniciar sesión.",
+  "goToLogin": "Ir a Iniciar Sesión",
+  "emailAlreadyInUse": "El correo ya está registrado.",
+  "weakPassword": "La contraseña es demasiado débil.",
+  "signupError": "Error al crear la cuenta.",
+  "fieldsRequired": "Todos los campos son obligatorios.",
+  "loginError": "Error al iniciar sesión. Por favor, inténtalo nuevamente.",
+  "userNotFound": "No se encontró un usuario con este correo.",
+  "welcomeMessage": "Bienvenido a Plus One",
+  "greeting": "Hola",
+  "logout": "Cerrar Sesión",
+  "wrongPassword": "Contraseña incorrecta. Por favor, inténtalo de nuevo.",
+  "exploreAsGuest": "Explorar como Invitado",
+  "guestExplore": "Explorar como Invitado",
+  "tooManyRequests": "Demasiados intentos de inicio de sesión. Por favor, inténtalo más tarde.",
+  "invalidCredential": "La credencial proporcionada es inválida. Por favor, inténtalo de nuevo.",
+  "accountBlocked": "Tu cuenta está temporalmente bloqueada. Por favor, inténtalo nuevamente en {minutes} minutos.",
+  "forgotPassword": "¿Olvidaste tu contraseña?",
+  "invalidEmail": "Por favor, ingresa un correo válido.",
+  "accountBlocked": "Tu cuenta está temporalmente bloqueada. Por favor, inténtalo nuevamente en {minutes} minutos.",
+    "@accountBlocked": {
+      "description": "Mensaje mostrado cuando la cuenta del usuario está bloqueada por múltiples intentos fallidos.",
+      "placeholders": {
+        "minutes": {
+          "type": "int",
+          "example": "5"
+      }
+    }
+  },
+  "signupSuccessTitle": "Registro Exitoso",
+  "@signupSuccessTitle": {
+    "description": "Título mostrado cuando el registro es exitoso."
+  }
+
+}

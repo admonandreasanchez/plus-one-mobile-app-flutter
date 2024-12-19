@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "296659614068",
+    "project_id": "plusone-e769d",
+    "storage_bucket": "plusone-e769d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296659614068:android:1c52fc31b418a85d68d421",
+        "android_client_info": {
+          "package_name": "com.example.plus_one"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0gzLcsmhNIkCOXcQDnxj6HbM5A1x_0U8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

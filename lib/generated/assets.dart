@@ -8,7 +8,9 @@ class Assets {
   static const String generatedAssets = 'lib/generated/assets.dart';
   static const String libMain = 'lib/main.dart';
   static const String marketplaceMarketplaceModule = 'lib/modules/marketplace/marketplace_module.dart';
+  static const String pagesLoginPage = 'lib/modules/auth/presentation/pages/login_page.dart';
   static const String profileProfileModule = 'lib/modules/profile/profile_module.dart';
+  static const String routesRoutes = 'lib/core/routes/routes.dart';
   static const String sharedShared = 'lib/shared/shared.dart';
 
 }
