@@ -1,0 +1,16 @@
+﻿{
+  "@@locale": "en",
+  "signin_title": "Welcome to PlusOne",
+  "field_email": "Email",
+  "field_password": "Password",
+  "btn_forgot_password": "Forgot your password?",
+  "msg_enter_email": "Please enter your email.",
+  "msg_enter_password": "Please enter your password.",
+  "msg_reset_sent": "If this email exists, we sent a reset link.",
+  "err_auth_invalid_email": "Invalid email address.",
+  "err_auth_wrong_credentials": "Incorrect email or password.",
+  "err_auth_too_many_requests": "Too many attempts. Try again later.",
+  "err_auth_generic": "Could not sign in. Please try again.",
+  "btn_signin": "Sign in",
+  "btn_create_account": "Don't have an account? Sign up!"
+}
